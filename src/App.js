@@ -52,7 +52,7 @@ function App() {
                        Real-time humen emotion detection using CNN and fer2013 dataset.
                        (Artificial Intelligence)
                 </Card.Text>
-                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>source code...</Card.Link>
+                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>Test real-time...</Card.Link>
                 </Card.Body>
                 </Card></td>
         </tr>
@@ -60,14 +60,10 @@ function App() {
           <td>
                   <Card style={{ width: '13rem',backgroundColor:"grey",borderRadius:"10%"}}>
                     <Card.Body><br/>
-                    <Card.Title className="carfont">Projects</Card.Title>
+                    <Card.Title className="carfont">Qualification</Card.Title>
                     <Card.Text>
-                      <ul>
-                        <li>Doc Online</li>
-                        <li>Inji - film review</li>
-                        <li>heya-chat app</li>
-                        <li>covid-19 tacking </li>
-                      </ul>
+                      MCA from Amirta School of arts and sciences kochi.
+                      [Interset and passion is more then a Degree..]
                        
                 </Card.Text>
                 <Card.Link href="https://github.com/alchemist123?tab=repositories" style={{fontSize:"17px", color:"white"}}>source code...</Card.Link>
@@ -76,12 +72,16 @@ function App() {
                 <td>
                 <Card style={{ width: '13rem',backgroundColor:"grey",borderRadius:"10%"}}>
                     <Card.Body><br/>
-                    <Card.Title className="carfont">Research</Card.Title>
+                    <Card.Title className="carfont">walk of life</Card.Title>
                     <Card.Text>
-                       Real-time humen emotion detection using CNN and fer2013 dataset.
-                       (Artificial Intelligence)
+                       <ul>
+                         <li>Mechine Learning </li>
+                         <li>Web developing</li>
+                         <li>Art works</li>
+                         <li>spread love</li>
+                       </ul>
                 </Card.Text>
-                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>source code...</Card.Link>
+                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>Test implemention ...</Card.Link>
                 </Card.Body>
                 </Card></td>
         </tr>
@@ -91,6 +91,7 @@ function App() {
 
       </div>
       </Container>
+      send feedback rjamaltdt@gmail.com
     </div>
   );
 }
