@@ -52,7 +52,7 @@ function App() {
                        Real-time humen emotion detection using CNN and fer2013 dataset.
                        (Artificial Intelligence)
                 </Card.Text>
-                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>Test real-time...</Card.Link>
+                <Card.Link href='/Ml' style={{fontSize:"17px", color:"white"}}>Test real-time...</Card.Link>
                 </Card.Body>
                 </Card></td>
         </tr>
@@ -66,7 +66,7 @@ function App() {
                       [Interset and passion is more then a Degree..]
                        
                 </Card.Text>
-                <Card.Link href="https://github.com/alchemist123?tab=repositories" style={{fontSize:"17px", color:"white"}}>source code...</Card.Link>
+                <Card.Link href="#" style={{fontSize:"17px", color:"white"}}>Loading...</Card.Link>
                 </Card.Body>
                 </Card></td>
                 <td>
@@ -81,7 +81,7 @@ function App() {
                          <li>spread love</li>
                        </ul>
                 </Card.Text>
-                <Card.Link href="https://github.com/alchemist123" style={{fontSize:"17px", color:"white"}}>Test implemention ...</Card.Link>
+                <Card.Link href="#" style={{fontSize:"17px", color:"white"}}>Reloading...</Card.Link>
                 </Card.Body>
                 </Card></td>
         </tr>
@@ -91,7 +91,7 @@ function App() {
 
       </div>
       </Container>
-      send feedback rjamaltdt@gmail.com
+      <p style={{fontFamily:"sans-serif",fontSize:"10px"}}>send feedback / rjamaltdt@gmail.com</p>
     </div>
   );
 }
