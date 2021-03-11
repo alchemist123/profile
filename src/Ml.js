@@ -1,6 +1,9 @@
 import React,{useEffect,useState,useRef} from 'react'
 import ml5 from 'ml5'
 import useInterval from '@use-it/interval';
+
+import { Container } from 'react-bootstrap';
+import DataChart from './DataChart';
 let classifier;
 function Ml() {
     const videoRef = useRef();
@@ -27,7 +30,6 @@ function Ml() {
               return;
             }
             setResult(results);
-            console.log(results)
           });
         }
       }, 500);
@@ -37,20 +39,31 @@ function Ml() {
       }
     
     return (
-        <div>
-            <video
-            ref={videoRef}
-            style={{ transform: "scale(-1, 1)" }}
-            width="200"
-            height="150" />
-            {loaded && (
-            <button onClick={() => toggle()}>
-              {start ? "Stop" : "Start"}
-            </button>
-          )}
+        <div className="App-header">
+          <Container><br/><br/>
+            <div className="LoginBox">
+              <video
+                ref={videoRef}
+                style={{ transform: "scale(-1, 1)" }}
+                width="250"
+                height="120" /><br/>
+                {loaded && (
+                <button className="btn" onClick={() => toggle()}>
+                <span>{start ? "Stop" : "Start"}</span>
+                
+                </button>
+                )}
+                {result.length > 0 && (
+          <div>
+            <DataChart data={result[0]}/>
+          </div>
+        )}
+                
+              </div>
+            </Container>
 
-            
         </div>
+        
     )
 }
 export default Ml;
