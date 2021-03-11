@@ -28,44 +28,47 @@ function App() {
       We have to keep our self very active and updated otherwise we will be left behind in the race. 
       We have to learn the new thing every day. We should learn to adapt with new things.
       Standing rigid with the old things will make us lose the competition.</b>
-      </p><br/>
+      </p>
               <div className="row">
                 <div className="column">
                   <div className="card">
-                    <h6 className="carfont">project</h6>
+                    <div className="carfont">project</div>
                     <p>
                     <ul style={{textAlign:"left"}}>
                         <li>Doc Online</li>
-                        <li>Inji - film review</li>
+                        <li>Inji </li>
                         <li>heya-chat app</li>
                         <li>covid-19 tacking </li>
                       </ul>
+                      <a href="https://github.com/alchemist123?tab=repositories" style={{fontSize:"15px", color:"yellow"}}>Source code...</a>
                       </p>
                   </div>
                  
                 </div>
                 <div className="column">
                 <div className="card">
-                    <h6 className="carfont">Research</h6>
+                    <div className="carfont">Research</div>
                     <p>
-                    Real-time humen emotion detection using CNN and fer2013 dataset.
-                       (Artificial Intelligence)
+                    Real-time humen emotion detection using CNN and fer2013 dataset.(Artificial Intelligence)
+                       <br/>
+                       <a href='/Ml' style={{fontSize:"15px", color:"yellow"}}>Test real-time...</a>
                       </p>
                   </div>
                 </div>
 
                 <div className="column">
                 <div className="card">
-                    <h6 className="carfont">Qualification</h6>
+                    <div className="carfont">Qualification</div>
                     <p>
                     MCA from Amirta School of arts and sciences kochi.
                       [Interset and passion is more then a Degree..]
+                      <a href='#' style={{fontSize:"15px", color:"yellow"}}>Loading...</a>
                       </p>
                   </div>
                 </div>
                 <div className="column">
                 <div className="card">
-                    <h6 className="carfont">walk of life</h6>
+                    <div className="carfont">walk of life</div>
                     <p>
                     <ul>
                          <li>Mechine Learning </li>
@@ -73,11 +76,17 @@ function App() {
                          <li>Art works</li>
                          <li>spread love</li>
                        </ul>
+                       <a href='#' style={{fontSize:"15px", color:"yellow"}}>ReLoading...</a>
                       </p>
                   </div>
                 
                 </div>
                 </div>
+               <p>Artificial intelligence is impacting the future of virtually every industry and every human being.
+                  Artificial intelligence has acted as the main driver of emerging technologies like big data,
+                  robotics and IoT, and it will continue to act as a technological innovator for the foreseeable future.
+                  <br/><b><a href='/Ml' style={{fontSize:"15px", color:"black"}}>Experience the future....</a></b></p> <br/>
+                  <p><b>send feedback to rjamaltdt123@gmail.com</b></p>
               
       </div>
       </Container>

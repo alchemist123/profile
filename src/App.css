@@ -41,7 +41,7 @@
 .carfont{
   font-family:'Press Start 2P', 'cursive';
   color: rgb(250, 249, 249);
-  font-size: 15px;
+  font-size: 9px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -70,6 +70,7 @@
   font-family:'Share Tech Mono',' monospace' ;
   font-size: small;
   color: #ffffff;
+  text-align: left;
 }
 
 /* Responsive columns */
