@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 * {
   box-sizing: border-box;
@@ -118,6 +119,11 @@
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+.refont{
+  font-family:'Oswald', 'sans-serif';
+  color: rgb(10, 10, 10);
+  font-size: 20px;
 }
 
 

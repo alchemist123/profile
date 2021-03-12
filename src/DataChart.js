@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pie, defaults } from 'react-chartjs-2'
+import { Bar, defaults } from 'react-chartjs-2'
 
 defaults.global.tooltips.enabled = false
 defaults.global.legend.position = 'bottom'
@@ -8,16 +8,16 @@ function DataChart(props) {
     const data = props.data;
     const label = props.data.label;
     const confidence = parseFloat(data.confidence.toFixed(2));
-    console.log(confidence)
+    //console.log(data)
     return (
         <div>
-             <Pie
+             <Bar
         data={{
-          labels: ['Happy', 'sad', 'Disgust', 'Fear', 'Surprise', 'Neutral'],
+          labels: ['Happy', 'sad', 'Anger','Disgust', 'Fear', 'Surprise', 'Neutral'],
           datasets: [
             {
-              label: '# of votes',
-              data: [12, 19, 3, 5, 2, 3],
+              label: 'Real-time Emotion detection',
+              data: [label==='happy'?(confidence*100):0,label==='sad'?(confidence*100):0 ,label==='anger'?(confidence*100):0 ,label==='disgust'?(confidence*100):0,label==='fear'?(confidence*100):0 , label==='surprise'?(confidence*100):0,label==='neutral'?(confidence*100):0],
               backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',

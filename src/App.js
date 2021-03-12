@@ -1,4 +1,4 @@
-import {Card} from 'react-bootstrap'
+
 import Container from 'react-bootstrap/Container';
 import pro from './me.jpg'
 import ln from './linkedin.png'
@@ -11,13 +11,13 @@ function App() {
     <div className="App-header">
 
     <br/>
-      <img src={pro} style={{borderRadius:"50%", width:"10%",height:"10%", opacity:"90%"}}/>
+      <img src={pro} alt="DP" style={{borderRadius:"50%", width:"10%",height:"10%", opacity:"90%"}}/>
       AMAL V S<br/>
       <table>
         <tr>
-          <a href="https://www.linkedin.com/in/amal-v-s-948079200/"><th><img src={ln} style={{width:"35px",height:"35px"}}/></th></a>&nbsp;&nbsp;&nbsp;
-          <a href="https://github.com/alchemist123"><th><img src={gh} style={{width:"35px",height:"35px"}}/></th></a>&nbsp;&nbsp;&nbsp;
-          <a href="https://www.instagram.com/_____alchemist______/"><th><img src={insta} style={{width:"35px",height:"35px"}}/></th></a>
+          <a href="https://www.linkedin.com/in/amal-v-s-948079200/"><th><img src={ln} alt="linkedin" style={{width:"35px",height:"35px"}}/></th></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/alchemist123"><th><img src={gh} alt="gitHub" style={{width:"35px",height:"35px"}}/></th></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://www.instagram.com/_____alchemist______/"><th><img src={insta} alt="instagram" style={{width:"35px",height:"35px"}}/></th></a>
         </tr>
       </table>
       <Container>
