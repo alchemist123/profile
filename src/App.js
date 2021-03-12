@@ -62,7 +62,7 @@ function App() {
                     <p>
                     MCA from Amirta School of arts and sciences kochi.
                       [Interset and passion is more then a Degree..]
-                      <a href='#' style={{fontSize:"15px", color:"yellow"}}>Loading...</a>
+                      <div style={{fontSize:"15px", color:"yellow"}}>Loading...</div>
                       </p>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ function App() {
                          <li>Art works</li>
                          <li>spread love</li>
                        </ul>
-                       <a href='#' style={{fontSize:"15px", color:"yellow"}}>ReLoading...</a>
+                       <div style={{fontSize:"15px", color:"yellow"}}>ReLoading...</div>
                       </p>
                   </div>
                 
