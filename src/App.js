@@ -21,7 +21,7 @@ function App() {
         </tr>
       </table>
       <Container>
-      <div className="LoginBox">
+    
       <br/>
       <p><b>
       Technology is changing every day. Every day, there are new enhancements, every day there is a new invention.
@@ -88,7 +88,6 @@ function App() {
                   <br/><b><a href='/Ml' style={{fontSize:"15px", color:"black"}}>Experience the future....</a></b></p> <br/>
                   <p><b>send feedback to rjamaltdt123@gmail.com</b></p>
               
-      </div>
       </Container>
     </div>
   );
